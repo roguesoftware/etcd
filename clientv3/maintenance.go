@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"io"
 
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
 	"go.uber.org/zap"
+	pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 )

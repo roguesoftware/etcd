@@ -18,9 +18,9 @@ import (
 	"context"
 	"strings"
 
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	"go.etcd.io/etcd/version"
 	"google.golang.org/grpc/metadata"
+	"roguesoftware.com/etcd/etcdserver/api/v3rpc/rpctypes"
+	"roguesoftware.com/etcd/version"
 )
 
 // WithRequireLeader requires client requests to only succeed

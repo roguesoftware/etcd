@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
+	pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 )
