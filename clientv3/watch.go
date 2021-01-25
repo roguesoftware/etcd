@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	v3rpc "roguesoftware.com/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
-	mvccpb "roguesoftware.com/etcd/mvcc/mvccpb"
+	v3rpc "github.com/roguesoftware/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/roguesoftware/etcd/etcdserver/etcdserverpb"
+	mvccpb "github.com/roguesoftware/etcd/mvcc/mvccpb"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

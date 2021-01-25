@@ -17,8 +17,8 @@ package leasing
 import (
 	"bytes"
 
-	v3 "roguesoftware.com/etcd/clientv3"
-	v3pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/roguesoftware/etcd/clientv3"
+	v3pb "github.com/roguesoftware/etcd/etcdserver/etcdserverpb"
 )
 
 func compareInt64(a, b int64) int {

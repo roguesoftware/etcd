@@ -26,18 +26,18 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/roguesoftware/etcd/clientv3/balancer"
+	"github.com/roguesoftware/etcd/clientv3/balancer/picker"
+	"github.com/roguesoftware/etcd/clientv3/balancer/resolver/endpoint"
+	"github.com/roguesoftware/etcd/clientv3/credentials"
+	"github.com/roguesoftware/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/roguesoftware/etcd/pkg/logutil"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	grpccredentials "google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/status"
-	"roguesoftware.com/etcd/clientv3/balancer"
-	"roguesoftware.com/etcd/clientv3/balancer/picker"
-	"roguesoftware.com/etcd/clientv3/balancer/resolver/endpoint"
-	"roguesoftware.com/etcd/clientv3/credentials"
-	"roguesoftware.com/etcd/etcdserver/api/v3rpc/rpctypes"
-	"roguesoftware.com/etcd/pkg/logutil"
 )
 
 var (

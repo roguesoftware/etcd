@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/roguesoftware/etcd/etcdserver/api/v3rpc/rpctypes"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
-	"roguesoftware.com/etcd/etcdserver/api/v3rpc/rpctypes"
 )
 
 // unaryClientInterceptor returns a new retrying unary client interceptor.

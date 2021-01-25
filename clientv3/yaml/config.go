@@ -22,8 +22,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"roguesoftware.com/etcd/clientv3"
-	"roguesoftware.com/etcd/pkg/tlsutil"
+	"github.com/roguesoftware/etcd/clientv3"
+	"github.com/roguesoftware/etcd/pkg/tlsutil"
 )
 
 type yamlConfig struct {

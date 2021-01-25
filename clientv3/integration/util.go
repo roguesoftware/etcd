@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"roguesoftware.com/etcd/clientv3"
+	"github.com/roguesoftware/etcd/clientv3"
 )
 
 // mustWaitPinReady waits up to 3-second until connection is up (pin endpoint).

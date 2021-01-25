@@ -22,9 +22,9 @@ import (
 	"net"
 	"sync"
 
+	"github.com/roguesoftware/etcd/clientv3/balancer/resolver/endpoint"
+	"github.com/roguesoftware/etcd/etcdserver/api/v3rpc/rpctypes"
 	grpccredentials "google.golang.org/grpc/credentials"
-	"roguesoftware.com/etcd/clientv3/balancer/resolver/endpoint"
-	"roguesoftware.com/etcd/etcdserver/api/v3rpc/rpctypes"
 )
 
 // Config defines gRPC credential configuration.

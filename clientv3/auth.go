@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/roguesoftware/etcd/auth/authpb"
+	pb "github.com/roguesoftware/etcd/etcdserver/etcdserverpb"
 	"google.golang.org/grpc"
-	"roguesoftware.com/etcd/auth/authpb"
-	pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
 )
 
 type (

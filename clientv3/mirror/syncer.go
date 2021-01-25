@@ -18,7 +18,7 @@ package mirror
 import (
 	"context"
 
-	"roguesoftware.com/etcd/clientv3"
+	"github.com/roguesoftware/etcd/clientv3"
 )
 
 const (

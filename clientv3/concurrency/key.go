@@ -18,9 +18,9 @@ import (
 	"context"
 	"fmt"
 
-	v3 "roguesoftware.com/etcd/clientv3"
-	pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
-	"roguesoftware.com/etcd/mvcc/mvccpb"
+	v3 "github.com/roguesoftware/etcd/clientv3"
+	pb "github.com/roguesoftware/etcd/etcdserver/etcdserverpb"
+	"github.com/roguesoftware/etcd/mvcc/mvccpb"
 )
 
 func waitDelete(ctx context.Context, client *v3.Client, key string, rev int64) error {

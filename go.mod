@@ -1,4 +1,4 @@
-module roguesoftware.com/etcd
+module github.com/roguesoftware/etcd
 
 go 1.15
 

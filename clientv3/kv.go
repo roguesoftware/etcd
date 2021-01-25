@@ -17,7 +17,7 @@ package clientv3
 import (
 	"context"
 
-	pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
+	pb "github.com/roguesoftware/etcd/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 )

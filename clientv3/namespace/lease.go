@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"context"
 
-	"roguesoftware.com/etcd/clientv3"
+	"github.com/roguesoftware/etcd/clientv3"
 )
 
 type leasePrefix struct {

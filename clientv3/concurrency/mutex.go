@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sync"
 
-	v3 "roguesoftware.com/etcd/clientv3"
-	pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/roguesoftware/etcd/clientv3"
+	pb "github.com/roguesoftware/etcd/etcdserver/etcdserverpb"
 )
 
 // Mutex implements the sync Locker interface with etcd

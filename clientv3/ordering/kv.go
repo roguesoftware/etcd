@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"roguesoftware.com/etcd/clientv3"
+	"github.com/roguesoftware/etcd/clientv3"
 )
 
 // kvOrdering ensures that serialized requests do not return

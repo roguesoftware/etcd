@@ -31,8 +31,8 @@ import (
 	"strings"
 	"time"
 
-	"roguesoftware.com/etcd/pkg/fileutil"
-	"roguesoftware.com/etcd/pkg/tlsutil"
+	"github.com/roguesoftware/etcd/pkg/fileutil"
+	"github.com/roguesoftware/etcd/pkg/tlsutil"
 
 	"go.uber.org/zap"
 )

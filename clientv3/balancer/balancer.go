@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"roguesoftware.com/etcd/clientv3/balancer/connectivity"
-	"roguesoftware.com/etcd/clientv3/balancer/picker"
+	"github.com/roguesoftware/etcd/clientv3/balancer/connectivity"
+	"github.com/roguesoftware/etcd/clientv3/balancer/picker"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc/balancer"

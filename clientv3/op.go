@@ -14,7 +14,7 @@
 
 package clientv3
 
-import pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
+import pb "github.com/roguesoftware/etcd/etcdserver/etcdserverpb"
 
 type opType int
 

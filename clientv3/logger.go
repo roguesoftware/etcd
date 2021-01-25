@@ -18,7 +18,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"roguesoftware.com/etcd/pkg/logutil"
+	"github.com/roguesoftware/etcd/pkg/logutil"
 
 	"google.golang.org/grpc/grpclog"
 )

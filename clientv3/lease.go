@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"roguesoftware.com/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
+	"github.com/roguesoftware/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/roguesoftware/etcd/etcdserver/etcdserverpb"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

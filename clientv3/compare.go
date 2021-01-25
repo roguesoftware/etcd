@@ -15,7 +15,7 @@
 package clientv3
 
 import (
-	pb "roguesoftware.com/etcd/etcdserver/etcdserverpb"
+	pb "github.com/roguesoftware/etcd/etcdserver/etcdserverpb"
 )
 
 type CompareTarget int
